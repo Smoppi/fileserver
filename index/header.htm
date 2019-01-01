@@ -1,0 +1,21 @@
+<?php
+  include("inc/settings.php");
+  include("inc/check_login.inc");
+  $sivungenerointiaika = -microtime(true); ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>server2<?php if (isset($_GET['dir'])) { echo ' - ' . $_GET['dir']; } ?></title>
+<link rel="stylesheet" type="text/css" href="tyyli.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="dos, dos games, nes, nes games, emulator, dosbox, sininenankka, punanenankka, server, file server">
+<link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+<table class = "bodytable"><tr><td><h1>fileserver</h1></td></tr></table>
+
+<a href = "index.php">index</a> | <a href = "lataus.php">file list</a> | 
+<?php include('session.php'); ?>
+
+<table class = "bodytable"><tr><td>

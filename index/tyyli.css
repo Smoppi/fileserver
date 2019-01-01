@@ -1,0 +1,117 @@
+body {
+background-color:#000000;
+font-family:Terminal,Fixedsys,"Lucida Console", Monaco, monospace;
+font-size:16px;
+color:LightGray;
+}
+
+p {
+max-width:480px;
+}
+
+.teksti {
+background-color:#000000;
+color:LightGray;
+font-family:Terminal,Fixedsys,"Lucida Console", Monaco, monospace;
+font-size:16px;
+text-decoration:bold;
+border:2px;
+border-style:solid;
+border-color:#ff0000;
+white-space: pre-wrap;
+margin-left:20px;
+margin-right:20px;
+}
+
+.teksti2 {
+background-color:#000000;
+color:LightGray;
+font-family:Terminal,Fixedsys,"Lucida Console", Monaco, monospace;
+font-size:16px;
+text-decoration:bold;
+border:2px;
+border-style:solid;
+border-color:#0000ff;
+white-space:pre-wrap;
+margin-left:20px;
+margin-right:20px;
+}
+
+.tekstilaatikko {
+background-color:#000000;
+font-family:Terminal,Fixedsys,"Lucida Console", Monaco, monospace;
+font-size:16px;
+border:2px;
+color:LightGray;
+border-style:solid;
+border-color:#ff0000;
+margin-left:20px;
+margin-right:20px;
+}
+
+.nappi {
+background-color:LightGray;
+font-family:Terminal,Fixedsys,"Lucida Console", Monaco, monospace;
+font-size:16px;
+border:2px;
+color:Black;
+border-color:DarkGray;
+border-style:dotted solid;
+margin-left:20px;
+margin-right:20px;
+}
+
+a:link              { color:#00ff00; text-decoration:underline; }
+a:visited           { color:#00ff00; text-decoration:underline; }
+a:hover             { color:#ff0000; text-decoration:none; }
+a:active            { color:#ff0000; text-decoration:underline; }
+
+.bodytable {
+width:100%;
+border-color:#0000ff;
+border:2px;
+background-color:#191919;
+
+}
+
+.dirlist1 {
+border:2px;border-style:solid;
+border-color:#2a2a2a;
+}
+
+.dirlist2 {
+border:2px;border-style:solid;
+border-color:#2a2a2a;
+}
+
+.dirlist3 {
+border:2px;border-style:solid;
+border-color:#2a2a2a;
+}
+
+
+.latauslinkki {
+background-color:#250000;
+}
+
+.hakusanat {
+color:#000000;
+}
+
+.tafilelist {
+background-color:#191919;
+font-family:Terminal,Fixedsys,"Lucida Console", Monaco, monospace;
+font-size:16px;
+border:2px;
+color:#bf6500;
+border-style:solid;
+border-color:Gray;
+margin-left:4px;
+margin-right:0px;
+}
+
+.jarjestyslinkki:link              { color:LightGray; text-decoration:underline; }
+.jarjestyslinkki:visited           { color:LightGray; text-decoration:underline; }
+.jarjestyslinkki:hover             { color:#ff0000; text-decoration:none; }
+.jarjestyslinkki:active            { color:LightGray; text-decoration:underline; }
+
